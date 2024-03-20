@@ -1,6 +1,6 @@
-package ex2;
+package ex5;
 
-public class EX2 {
+public class Ex5 {
 
     public static void main(String[] args) {
         int contador = 150; 
@@ -13,4 +13,4 @@ public class EX2 {
     }
     
   }
-}
+}    

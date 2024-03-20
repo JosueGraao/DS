@@ -19,9 +19,9 @@ public class EX3 {
             System.out.println("Digite a idade do aluno");
             idade = grava.nextInt();
             soma = soma + idade;
-      }
-      media = soma/aluno;
-      System.out.println("A média da idade dos alunos é "+media);
+    }
+        media = soma/aluno;
+        System.out.println("A média da idade dos alunos é "+media);
       
     }
 

@@ -10,15 +10,15 @@ public class EX4 {
     public static void main(String[] args) {
         Scanner grava = new Scanner(System.in);
         
-        int vezes = 0, contador=0; 
+        int vezes = 0, contador = 1; 
       
      
-      System.out.println("Digite o número de vezes que você quer repetir a mensagem:");
-      vezes = grava.nextInt();
+        System.out.println("Digite o número de vezes que você quer repetir a mensagem:");
+        vezes = grava.nextInt();
       
-      while(contador!=vezes){
-      System.out.println("Isso é um teste");
-      contador++;
+        while(contador<=vezes){
+            System.out.println("Isso é um teste " + contador);
+            contador++;
       }
       
     }
